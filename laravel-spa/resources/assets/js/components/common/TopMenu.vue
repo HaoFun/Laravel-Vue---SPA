@@ -15,9 +15,9 @@
                     &nbsp;
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <router-link to="/about" tag="li">
-                        <a>About</a>
-                    </router-link>
+                    <router-link to="/" tag="li"><a>Home</a></router-link>
+                    <router-link to="/register" tag="li"><a>Register</a></router-link>
+                    <router-link to="/about" tag="li"><a>About</a></router-link>
                 </ul>
             </div>
         </div>
