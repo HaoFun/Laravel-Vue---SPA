@@ -19,6 +19,11 @@ let routes = [
         component:require('./components/register/Register.vue'),
     },
     {
+        path:'/login',
+        name:'login',
+        component:require('./components/login/Login.vue'),
+    },
+    {
         path:'/confirm',
         name:'confirm',
         component:require('./components/confirm/Email.vue'),
