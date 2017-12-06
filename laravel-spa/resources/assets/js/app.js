@@ -20,5 +20,4 @@ Vue.component('app',App);
 const app = new Vue({
     el: '#app',
     router:router
-
 });

@@ -8,6 +8,7 @@
                         <div  class="bs-callout bs-callout-danger">
                             <p>{{ post.body }}</p>
                         </div>
+                        <button class="btn btn-default center-block" @click="reback">回上一頁</button>
                     </div>
                 </div>
             </div>
@@ -25,6 +26,11 @@
         data() {
             return {
                 post :{}
+            }
+        },
+        methods :{
+            reback() {
+                this.$router.go(-1);
             }
         }
     }
